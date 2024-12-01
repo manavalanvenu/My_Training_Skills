@@ -1,0 +1,63 @@
+body{
+    /* background-image: url(/Images/Nature.jpg); */
+    background-size: cover;
+    background-color: rgb(5, 180, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    background-color: rgba(0,0,0,.5);
+   
+    border-radius: 10px;
+    width: 300px;
+    height: 650px;
+    margin: 250px auto;
+    color: antiquewhite;
+    padding: 10px 20px 30px;
+    font-size: 15px;
+}
+
+.container h2{
+    text-align: center;
+    color: rgb(106, 165, 42);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.container .textlabel{
+    display: block;
+}
+
+.input input{
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding:10px 10px ;
+    box-sizing: border-box;
+    
+}
+
+input:focus{
+    background-color: rgb(227, 244, 192);
+}
+
+.btn{
+    text-align:center;
+    padding: 40px;  
+}
+
+button{
+    background-color: rgb(4, 239, 161);
+    color: black;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
