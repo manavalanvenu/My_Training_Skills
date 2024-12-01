@@ -1,0 +1,128 @@
+body{
+    background-image: url(/Images/DarkenbackgroundNet.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+}
+
+.LOGO{
+    color: red;
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.883);
+    width: 400px;
+    height: 650px;
+    margin: 100px auto;
+    color:white;
+    padding: 40px 60px;
+}
+
+.container h2{
+    font-size: 30px;
+}
+
+.input input{
+    width: 100%;
+    font-size: 20px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.434);
+    background-color:rgba(25, 25, 25,.2) ;
+}
+
+.btn1{
+    text-align: center;
+
+}
+
+.btn1 button{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-color:rgb(255, 0, 0) ;
+    border: 1px;
+}
+
+.btn1 button:hover{
+    background-color:rgba(255, 0, 0, .8);
+}
+
+.container h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.btn2 button{
+    background-color: rgba(128, 128, 128, 0.447);
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border-color: rgba(128, 128, 128, 0.447);
+    border: 1px;
+}
+
+.btn2 button:hover{
+    background-color:rgba(128, 128, 128, 0.3);
+}
+
+.container .FPassword{
+    text-align: center;
+    padding-top:15px ;
+}
+
+.FPassword a:link{
+    color: white;
+}
+
+.FPassword a:visited{
+    color: white;
+}
+
+.FPassword a:hover{
+    color: rgba(255, 255, 255, 0.745);
+}
+
+.chkbox{
+    padding-top: 20px;
+}
+
+.para1{
+    padding-top: 5px;
+}
+
+.para1 a{
+    color: white;
+    font-weight: bold;
+}
+
+.para2{
+    padding-top: 5px;
+}
+
+.para2 a{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.para2 a:hover{
+    color:rgba(0, 0, 255, 0.547);
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.para1 a:hover{
+    color: rgba(255, 255, 255, 0.745);
+    font-family:Arial, Helvetica, sans-serif
+}
+
