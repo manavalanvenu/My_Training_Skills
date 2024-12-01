@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/Formstyle.css" type="text/css">
+    <title>LoginForm</title>
+</head>
+<body>
+    <div class="container">
+    <h2>Signup</h2>
+    <form action="HTMLtext.html" method="get">
+        <div class="input">
+            <label class="textlabel" for="username">UserName</label>
+            <input type="text" name="username" id="username" required> 
+        </div>
+        <div class="input">
+            <label class="textlabel" for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+        </div>
+        <div class="input">
+            <label class="textlabel" for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div class="input">
+            <label for="DOB">DOB</label>
+            <input type="date" name="DOB" id="DOB"> 
+        </div>
+        <div class="input">
+            <label for="Phone">Phone.No</label>
+            <input type="text" name="Phone" id="Phone" maxlength="10" minlength="10">
+        </div>
+        <div class="radio">
+            <input type="radio" name="Gender" id="Male">
+            <label for="Male">Male</label>
+         
+            <input type="radio" name="Gender" id="Female">
+            <label for="Female">Female</label>
+        </div>
+        <div class="chkbox">
+            <input type="checkbox" name="SMS alert" id="SMS alert">
+            <label for="SMS alert">SMS Alert</label>
+        </div>
+        <div class="chkbox">
+            <input type="checkbox" name="Email alert" id="Email alert">
+            <label for="Email alert">Email Alert</label>
+        </div>
+        <div class="input">
+            <label class="textlabel" for="Comment">Comment</label>
+            <textarea name="Comment" id="Comment"rows="5" cols="30">Write your comment here...</textarea>
+        </div>
+        <div class="btn">
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+            
+        </div>
+
+    </form>
+
+</div>
+
+</body>
+</html>
