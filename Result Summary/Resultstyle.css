@@ -1,0 +1,381 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: gray;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    /* background-color: white; */
+}
+
+.Whitebox img{
+    width: 30px;
+    height: 30px;
+}
+
+.Bluebox{
+    background-color: rgb(70, 70, 238);
+    width: 320px;
+    height: 392PX;
+    margin: auto;
+    color: white;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.Bluebox h3{
+    padding: 20px 0px 20px 110px;
+    color: rgb(217, 211, 211);
+}
+
+.Bluebox .TotalScore{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, rgb(35, 35, 162),rgb(50, 50, 169));
+    border: none;
+}
+
+.TotalScore h1{
+    margin:auto;
+    padding:20px 0px 0px 27px;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.TotalScore h4{ 
+    padding: 4px 10px 0px 40px;
+    font-size: 15px;
+    color: rgb(228, 225, 225);
+}
+
+
+.Bluebox h2{
+    padding: 50px 0px 0px 0px;
+    padding-left: 130px;
+}
+
+.Bluebox p{
+    padding: 30px 0px 0px 30px;
+    margin-left: 20px;
+    color: rgb(217, 211, 211);
+}
+
+.Whitebox{
+    background-color:white;
+    width: 320px;
+    height: 100%;
+    margin: auto;
+    /* margin-top: -20px; */
+    /* border-radius: 0px 0px 0px 0px; */
+}
+
+.Whitebox{
+
+
+    h4{
+        font-size: 16px;
+        margin: 0px;
+        padding:30px 0px 0px 24px;
+    }
+
+    .Reaction{
+       padding: 0px;
+       width: 275px;
+       height:40px;
+       margin: 20px;
+       background-color:rgba(247, 230, 230, 0.917) ;
+       border-radius: 10px;
+       display: flex;
+       align-items: center;
+       /* justify-content: center; */
+    }
+
+    .Reaction img{
+        padding-left: 20px;
+    }
+    .Reaction h3{
+        color: rgb(197, 88, 88);
+        font-size: 16px;
+    }
+    .Reaction p{
+        padding-left: 35%;
+    }
+
+    .Memory{
+        /* margin-top: 50px; */
+        width: 275px;
+        height:40px;
+        margin: 20px;
+        background-color:rgba(244, 235, 220, 0.917) ;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+     }
+ 
+     .Memory img{
+         padding-left: 20px;
+     }
+     .Memory h3{
+         color: rgb(240, 175, 55);
+         font-size: 16px;
+     }
+     .Memory p{
+         padding-left: 35%;
+     }
+
+     .Verbal{
+        /* margin-top: 50px; */
+        width: 275px;
+        height:40px;
+        margin: 20px;
+        background-color:rgba(221, 245, 247, 0.917) ;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+     }
+ 
+     .Verbal img{
+         padding-left: 20px;
+     }
+     .Verbal h3{
+         color: rgb(68, 194, 244);
+         font-size: 16px;
+     }
+     .Verbal p{
+         padding-left: 40%;
+     }
+
+     .Visual{
+        /* margin-top: 50px; */
+        width: 275px;
+        height:40px;
+        margin: 20px;
+        background-color:rgba(213, 213, 245, 0.917) ;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+     }
+ 
+     .Visual img{
+         padding-left: 20px;
+     }
+     .Visual h3{
+         color: rgb(67, 67, 246);
+         font-size: 16px;
+     }
+     .Visual p{
+         padding-left: 41%;
+     }
+
+     .btn button{
+        /* margin-top: 50px; */
+        margin: 27px;
+        width: 265px;
+        height:40px;
+        border-radius: 20px;
+        border: none;
+        background-color: rgb(62, 62, 94);
+        color: white;
+     }
+
+     .btn button:hover{
+         background-color:rgb(52, 52, 245);
+     }
+     
+}
+
+      /* Mobile Mode */
+
+      @media all and (max-width:425px){
+        .container{
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            position: relative;
+            bottom: 20px;
+            /* background-color: white; */
+        }
+       
+        .Bluebox{
+            background-color: rgb(70, 70, 238);
+            width: 320px;
+            height: 392PX;
+            margin: auto;
+            color: white;
+            border-radius: 0px 0px 20px 20px;
+            position: relative;
+            top: 20px;
+        }
+
+        .Whitebox{
+            background-color:white;
+            width: 320px;
+            height: 100%;
+            margin: auto;
+            /* margin-top: -20px; */
+            /* border-radius: 0px 0px 0px 0px; */
+        }
+
+      }
+
+
+   /* Tablet Mode and Desktop Mode */
+
+@media all and (min-width:426px){
+
+    .container{
+        width: 650px;
+        height: 100%;
+        margin:auto;
+        display: flex;
+        justify-content: center;
+        padding: auto;
+    
+    }
+
+    .Bluebox{
+        background-color: rgb(70, 70, 238);
+        width: 320px;
+        height: 392PX;
+        margin: auto;
+        color: white;
+        border-radius: 20px;
+        position: relative;
+        left: 30px;
+    }
+
+    .Whitebox{
+        background-color:white;
+        width: 345px;
+        height: 392px;
+        margin: auto;
+        /* margin-top: -20px; */
+        border-radius: 0px 20px 20px 0px;
+    }
+
+    .Whitebox{
+
+
+        h4{
+            font-size: 16px;
+            margin: 0px;
+            padding: 20px 0px 0px 50px;
+        }
+    
+        .Reaction{
+           padding: 0px;
+           width: 275px;
+           height:40px;
+           margin-left: 50px;
+           background-color:rgba(247, 230, 230, 0.917) ;
+           border-radius: 10px;
+           display: flex;
+           align-items: center;
+           /* justify-content: center; */
+        }
+    
+        .Reaction img{
+            padding-left: 20px;
+        }
+        .Reaction h3{
+            color: rgb(197, 88, 88);
+            font-size: 16px;
+        }
+        .Reaction p{
+            padding-left: 35%;
+        }
+    
+        .Memory{
+            /* margin-top: 50px; */
+            width: 275px;
+            height:40px;
+            margin-left: 50px;
+            background-color:rgba(244, 235, 220, 0.917) ;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+         }
+     
+         .Memory img{
+             padding-left: 20px;
+         }
+         .Memory h3{
+             color: rgb(240, 175, 55);
+             font-size: 16px;
+         }
+         .Memory p{
+             padding-left: 35%;
+         }
+    
+         .Verbal{
+            /* margin-top: 50px; */
+            width: 275px;
+            height:40px;
+            margin-left: 50px;
+            background-color:rgba(221, 245, 247, 0.917) ;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+         }
+     
+         .Verbal img{
+             padding-left: 20px;
+         }
+         .Verbal h3{
+             color: rgb(68, 194, 244);
+             font-size: 16px;
+         }
+         .Verbal p{
+             padding-left: 40%;
+         }
+    
+         .Visual{
+            /* margin-top: 50px; */
+            width: 275px;
+            height:40px;
+            margin-left: 50px;
+            background-color:rgba(213, 213, 245, 0.917) ;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+         }
+     
+         .Visual img{
+             padding-left: 20px;
+         }
+         .Visual h3{
+             color: rgb(67, 67, 246);
+             font-size: 16px;
+         }
+         .Visual p{
+             padding-left: 41%;
+         }
+    
+         .btn button{
+            /* margin-top: 50px; */
+            margin-left: 55px;
+            width: 267px;
+            height:40px;
+            border-radius: 20px;
+            border: none;
+            background-color: rgb(62, 62, 94);
+            color: white;
+         }
+
+}
+
+}
+
+
