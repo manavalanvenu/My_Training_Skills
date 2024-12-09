@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: magenta;
+    font-family: "Poppins", sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container div img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: black;    
+    margin: auto;
+}
+
+.container div img:hover{
+    border: 2px solid white;
+    background-color:blue;
+  }
+
+.container div h4,p{
+    color: white;
+    width: 200px;
+}
+
+.container div{
+    margin: 10px;
+    flex-basis: 23%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center; 
+      
+}
+
+
+
+
